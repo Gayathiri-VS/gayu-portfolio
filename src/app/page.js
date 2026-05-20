@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Activities from "@/components/Activities";
 import Contact from "@/components/Contact";
+import ParticleBackground from "@/components/ParticleBackground";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         <div className="glow-orb orb-2"></div>
         <div className="glow-orb orb-3"></div>
       </div>
+
+      {/* Particle Canvas Overlay */}
+      <ParticleBackground />
 
       {/* Navigation Header */}
       <Navbar />
