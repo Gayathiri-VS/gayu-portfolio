@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("");
-  const roles = ["Software Engineer", "MERN Stack Developer", "Web & Mobile Developer", "Machine Learning Enthusiast"];
+  const roles = ["Software Engineer", "SQL Developer", "Web & Mobile Developer", "Machine Learning Enthusiast"];
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
