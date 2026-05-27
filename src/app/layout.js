@@ -15,8 +15,8 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "Gayathiri V S | Portfolio | CSE Student & Developer",
-  description: "Personal portfolio of Gayathiri V S, a computer science engineering student, web developer, and tech enthusiast. Detail-oriented professional with skills in Java, SQL, and Full-Stack development.",
-  keywords: ["Gayathiri V S", "Gayathiri V S Portfolio", "Sethu Institute of Technology", "Computer Science Student", "Web Developer", "Java Developer", "SQL Developer"],
+  description: "Personal portfolio of Gayathiri V S, a computer science engineering student, software engineer, and SQL developer.",
+  keywords: ["Gayathiri V S", "Gayathiri V S Portfolio", "Sethu Institute of Technology", "Computer Science Student", "Software Engineer", "SQL Developer"],
   authors: [{ name: "Gayathiri V S" }],
 };
 
