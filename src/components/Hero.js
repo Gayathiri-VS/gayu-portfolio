@@ -11,16 +11,16 @@ export default function Hero() {
 
   useEffect(() => {
     const activeRole = roles[roleIndex];
-    let typingSpeed = isDeleting ? 30 : 80;
+    let typingSpeed = isDeleting ? 50 : 150;
 
     if (!isDeleting && charIndex === activeRole.length) {
       // Pause at full text
-      typingSpeed = 1500;
+      typingSpeed = 2200;
       setIsDeleting(true);
     } else if (isDeleting && charIndex === 0) {
       setIsDeleting(false);
       setRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
-      typingSpeed = 500;
+      typingSpeed = 800;
     }
 
     const timer = setTimeout(() => {
